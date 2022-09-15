@@ -1,0 +1,42 @@
+.App {
+    font-family: "Barlow", sans-serif;
+    background-color: #f9e6bf;
+    min-height: 100vh;
+    font-size: 1.8rem;
+}
+
+.Main {
+    padding-top: 170px;
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+a {
+    color: #5c7a15;
+    transition: color ease-in-out 0.2s;
+}
+  
+a:hover {
+    text-decoration: none;
+    color: #995c2a;
+}
+  
+a:hover i {
+    color: #995c2a;
+    transition: color ease-in-out 0.2s;
+}
+  
+i {
+    color: #5c7a15;
+    font-size: 2rem;
+    padding: 7px;
+    vertical-align: middle;
+}
+  
+i:hover {
+    cursor: pointer;
+    transition: color ease-in-out 0.2s;
+    color: #995c2a;
+}
