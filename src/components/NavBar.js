@@ -53,13 +53,6 @@ const NavBar = () => {
     </NavLink>
     <NavLink 
       className={styles.NavLink} 
-      activeClassName={styles.Active} 
-      to="/played"
-    >
-      <i className ="fas fa-check"></i>Played
-    </NavLink>
-    <NavLink 
-      className={styles.NavLink} 
       to="/"
       onClick={handleSignOut}
     >
