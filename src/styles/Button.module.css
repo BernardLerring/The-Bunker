@@ -52,7 +52,7 @@
   .BlackOutline:hover {
     /* background-color: #242a3d;
     color: white; */
-    background-color: #242a3d;
+    background-color: #e1d0a2;
     color: #995c2a;
   }
   
@@ -61,6 +61,6 @@
     /* background-color: #dadadf;
     color: #242a3d;
     border-color: #242a3d; */
-    background-color: #995c2a;
-    color: #242a3d;
+    background-color: #e1d0a2;
+    color: #5c7a15;
   }
