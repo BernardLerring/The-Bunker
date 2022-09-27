@@ -10,21 +10,19 @@ This is the main website for the golf photography website The Bunker. This websi
 
 ### Site Aims
 
-![Flow Diagram of User Experience](/readme_images/flowchart.png "User Experience")
+
 
 ### User Stories
 
-![User Stories](/readme_images/userstories.png "User Stories")
+
 
 ### First time user goals
 
 - First time users should be able to easily navigate the site and view the content on any device.
 
-- 
+- First time users should be able to see the basic idea behind the site.
 
-- 
-
-- First time users should be able to view the post in more detail
+- First time users should be able to view the posts in more detail
 
 - First time users should be able to sign up to the site and create an account.
 
@@ -46,6 +44,8 @@ This is the main website for the golf photography website The Bunker. This websi
 
 The main colours used are pastel shades of green and brown. These are coupled with a light yellow that serves as the light background for much of the site. It gives the site a more organic feel than clinical bright colours, and they are colours associated with a golf course. I found the palettes for this at [iColorPalette] (https://icolorpalette.com/palette-by-themes/golf-course).
 
+![Palettes](/readme_images/pallettes.png "Palettes")
+
 ### Fonts/Typography:
 
 The main font used across the whole site is Barlow. It fits well with the colour scheme, and again, is less clinical than some more modern looking typefaces. It's fallback font is Sans Serif.
@@ -54,20 +54,6 @@ The main font used across the whole site is Barlow. It fits well with the colour
 
 Being a photo website, images of the courses/holes are important. However, as the posts will be created by users of the site, it will be dependent on the quality of photo taken by the user as to the finished result.
 
-## Wireframes/Sketches
-
-- Desktop Site
-
-
-
-- Mobile Site
-
-
-
-- Post Detail page
-
-
-
 ## Features
 
 - Responsive on a variety of devices.
@@ -75,6 +61,12 @@ Being a photo website, images of the courses/holes are important. However, as th
 - Regularly updated content.
 
 - Commenting and liking features for signed up users.
+
+### Logo
+
+- Site logo designed to imitate a ball in a bunker.
+
+![Logo](/readme_images/bunkerlogo.png "Logo")
 
 ### Header/Navigation
 
@@ -86,17 +78,59 @@ Being a photo website, images of the courses/holes are important. However, as th
 
 - The navigation makes it clear to the user what can be accessed on the site.
 
-![Header and Navigation](/readme_images/navbar.png "Header/Navbar")
+![Header and Navigation](/readme_images/navbar.png "Navbar")
 
-### Recipes
+- The site features a hamburger menu when used on mobile screens to avoid clutter in the navbar.
 
-- The recipes load 6 to a page, with pagination to allow users to move to "next" and "previous" pages once 6 has been reached.
+![Mobile View](/readme_images/mobileview.png "Mobile View")
 
-![Recipes](/readme_images/recipesmain.png "Recipes")
+_ Content is also loaded more centrally on smaller devices like tablets.
 
-- When a recipe is clicked on you get the recipe detail, including the ability to comment and like a recipe (if registered/signed in)
+![Tablet View](/readme_images/mobileview1.png "Tablet View")
 
-![Recipe Detail](/readme_images/recipedetail.png "Recipe Detail")
+### Posts/Home
+
+- The posts load 10 to a page, with infinite scroll to allow new posts to constantly load as the bottom of the page is reached. This is a much more modern approach than "next" and "previous" buttons.
+
+![Posts/Home](/readme_images/homepage.png "Posts/Home")
+
+- When a post is clicked on you get the detail including likes, comments and the title/info.
+
+![Post Detail](/readme_images/postdetail.png "Post Detail")
+
+### Search Feature
+
+- The search feature allows users to search by keyword including the post creators username or the post title.
+
+![Post Search](/readme_images/postsearch.png "Post Search")
+
+### Image Upload
+
+- The screen to allow users to upload an image.
+
+![Image Upload](/readme_images/imageupload.png "Image Upload")
+
+### Biography
+
+- The info submitted when a user fills out the biography section of the profile.
+
+![Biography](/readme_images/biography.png "Biography")
+
+### Followers
+
+- The sidebar shows the signed in user information about who they can follow to see content from.
+
+![Followers](/readme_images/followers.png "Followers")
+
+- This shows the follow/unfollow feature for users.
+
+![Follow/Unfollow](/readme_images/followunfollow.png "Follow/Unfollow")
+
+### Comments
+
+- This shows user comments under a specific post.
+
+![Comments](/readme_images/comment.png "Comments")
 
 ### Pagination
 
@@ -104,13 +138,27 @@ Being a photo website, images of the courses/holes are important. However, as th
 
 ### Sign Up 
 
-- The form indicates the required fields of Username, Email (optional), a password and then to re-enter password to confirm they match.
+- The form indicates the required fields of Username, a password and then to re-enter password to confirm they match.
 
-![Registration/Sign-up page](/readme_images/register.png "Registration/Sign-up page")
+![Sign Up page](/readme_images/signup.png "Sign Up page")
+
+- Errors logged if incorrect info is entered.
+
+![Sign Up page error](/readme_images/passwordsnotmatch.png "Sign Up page error")
+
+![Sign Up page error](/readme_images/passwordtooshort.png "Sign Up page error")
+
+![Sign Up page error](/readme_images/duplicateuser.png "Sign Up page error")
 
 ### Sign In
 
--
+- This form is for registered users to sign in to the site. It includes username and password fields, with warnings for incorrectly entered info.
+
+![Sign In page](/readme_images/signin.png "Sign In page")
+
+- Errors logged if incorrect info is entered.
+
+![Sign In page error](/readme_images/incorrectpassword.png "Sign Up page error")
 
 ## Technology used
 
@@ -337,17 +385,17 @@ TheRoad live site, click here [ThymeOnTheRoad](https://thymeontheroad.herokuapp.
 
 ### Content
 
-- All images on the site are the work of Ariel Rose Wright
+- All images are from Pexels
 
 - All icons on the site are taken from [FontAwesome](https://fontawesome.com/).
 
 - The font used on the site is from [Google Fonts](https://fonts.google.com/).
 
-- The framework used for the recipe site is from the Blog Walkthrough at [Code Institute](https://codeinstitute.net/).
+- The framework used for the site is from the Moments Walkthrough at [Code Institute](https://codeinstitute.net/).
 
 ### Media
 
-- The pagination idea is taken from the Code Institute Blog Walkthrough Project.
+- The pagination idea is taken from the Code Institute Moments Project.
 
 ### Future Development Opportunities
 
