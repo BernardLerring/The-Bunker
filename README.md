@@ -186,11 +186,11 @@ _ Content is also loaded more centrally on smaller devices like tablets.
 
 - :hover and :active pseudo classes were used to change colours on links adding to the User Experience.
 
-- Cloudinary
+- [Cloudinary](https://cloudinary.com/) was used to host all images on the live site.
 
 ## Testing
 
-- I confirmed that the site is responsive on a variety of device sizes through DevTools.
+- I confirm that the site is responsive on a variety of device sizes through DevTools.
 
 - I confirm that the colours and fonts all contrast and allow the user to easily navigate the site.
 
@@ -200,43 +200,17 @@ _ Content is also loaded more centrally on smaller devices like tablets.
 
 - I confirm that the site works in both Safari and Chrome.
 
-- Images below show the sign-up process
-
-![Registration page](/readme_images/register.png "Register")
-
-![Registration page completed](/readme_images/registrationpagecompleted.png "Registration page completed for submission")
-
-- Once the user is signed up, they have the ability to comment or like recipes
-
-![Comment Box](/readme_images/comment.png "Comment Box")
-
-- They can also "like" recipes
-
-![Likes](/readme_images/likes.png "Likes")
-
-- The comment, once approved by Admin appears on the site
-
-![Approved Comment](/readme_images/approved.png "Approved Comment")
-
-- Users can sign out of their account
-
-![Sign Out Page](/readme_images/signout.png "Sign Out")
-
-- Returning users can sign in
-
-![Sign In Page](/readme_images/signin.png "Sign In")
-
 ## Fixed Bugs
 
 - All Bootstrap classes resolve flow and sizing issues on smaller devices.
 
 - Users cannot submit empty fields on the registration form.
 
+- Users cannot sign up without submitting correct information.
+
 ## Unfixed Bugs
 
 - HTML errors from W3C validator that don't affect site functionality.
-
-- Having removed the inline styling on the masthead image, the size of this image changed.
 
 ## Creation and Deployment
 
@@ -379,7 +353,7 @@ git push
 30. Once you have then built your app, styled it, and written all code, go back to Heroku and click on "Deploy Branch"
 
 31. The build will happen in front of you, and once it has successfully built your app, you can click on "Open App" to take you to your live site.
-TheRoad live site, click here [ThymeOnTheRoad](https://thymeontheroad.herokuapp.com/)
+TheBunker live site, click here [The Bunker](https://the-bunker-tim.herokuapp.com/)
 
 ## Credits
 
@@ -401,20 +375,16 @@ TheRoad live site, click here [ThymeOnTheRoad](https://thymeontheroad.herokuapp.
 
 ## User Focused
 
-- A form could be added so that users can submit their own recipes in the same format as the site, for future addition to the site with admin approval.
+- A feature could be added for users to hit a checkbox under a post to say they have played the course/hole a photo is of.
 
-- The site could have further sections for types of cuisine, time taken to cook recipes so users could make a simpler journey round the site to choose what/how they want to cook.
+- The site could allow users to put the weblink of the course into the post.
 
-- Videos could be added to each recipe of the cooking method.
-
-- Clicking on the "Recipes from time spent travelling and cooking" could link to an "About" section with info about the site oweners.
+- A forum could be added for users to discuss all things golf.
 
 ## Developer Focused
 
-- Automated tests could be written and used to test site functionality.
+- More automated tests could be written and used to test more features of site functionality.
 
 ### Thanks
 
-- My wife for being my UX companion for the site and for helping test it for me, as well as providing the artwork.
-
-- My mentor Chris for his feedback and encouragement throughout the project.
+- My wife for being my UX companion for the site and for helping test it for me, as well as providing the logo artwork.
