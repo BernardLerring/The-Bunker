@@ -8,6 +8,10 @@ This is the main website for the golf photography website The Bunker. This websi
 
 ## User Experience
 
+### Project Goals
+
+- Visual: 
+
 ### Site Aims
 
 
@@ -172,8 +176,6 @@ _ Content is also loaded more centrally on smaller devices like tablets.
 
 - Django
 
-- Bootstrap 4
-
 ### Frameworks, libraries and programs used:
 
 - Google Fonts. Both main fonts used throughout the site are from the [Google Fonts](https://fonts.google.com/) repository.
@@ -187,6 +189,20 @@ _ Content is also loaded more centrally on smaller devices like tablets.
 - :hover and :active pseudo classes were used to change colours on links adding to the User Experience.
 
 - [Cloudinary](https://cloudinary.com/) was used to host all images on the live site.
+
+- Bootstrap 4
+
+- ReactJS
+
+### Why did I use these Languages?
+
+- ReactJS provides developers with components that can be reused to create new applications. Reusability of components makes a developer's life much easier. The platform enables developers to reuse a react component that has been created for one application, that performs the same function in another. By reusing containers in the code, there is a simplicity to duplication. 
+
+- Bootstrap helps designers and software developers to quickly build complete responsive websites. It is also the most complete CSS framework for creating mobile-first applications.
+
+### User advantages 
+
+- ReactJS works with a virtual DOM. This means that it doesn't need to refresh all the components on a page whenever the user interacts with it, thus enhancing the user experience of the site.
 
 ## Testing
 
