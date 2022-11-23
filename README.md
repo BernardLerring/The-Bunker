@@ -10,15 +10,17 @@ This is the main website for the golf photography website The Bunker. This websi
 
 ### Project Goals
 
-- Visual: 
+- Visual: For users to be able to share photos of their favourite golf holes.
+
+- Interactive - For users to be able to comment and like the content.
+
+- Exclusive - For users to be able to sign up and create an account on the site to enable member-only features.
+
+- Portable - For the site to be designed with a mobile-first mindset.
+
+- Intuitive - For the site to have a simple and repetetive design. 
 
 ### Site Aims
-
-
-
-### User Stories
-
-
 
 ### First time user goals
 
