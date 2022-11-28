@@ -12,13 +12,13 @@ This is the main website for the golf photography website The Bunker. This websi
 
 - Visual: For users to be able to share photos of their favourite golf holes.
 
-- Interactive - For users to be able to comment and like the content.
+- Interactive: For users to be able to comment and like the content.
 
-- Exclusive - For users to be able to sign up and create an account on the site to enable member-only features.
+- Exclusive: For users to be able to sign up and create an account on the site to enable member-only features.
 
-- Portable - For the site to be designed with a mobile-first mindset.
+- Portable: For the site to be designed with a mobile-first mindset.
 
-- Intuitive - For the site to have a simple and repetetive design. 
+- Intuitive: For the site to have a simple and repetetive design. 
 
 ### Site Aims
 
@@ -232,7 +232,7 @@ _ Content is also loaded more centrally on smaller devices like tablets.
 
 ## Creation and Deployment
 
-The site was created in Django using the following steps:
+### Django
 
 1. In the terminal window, of the CI template, install Django and gunicorn using the command "pip3 install 'django<4' gunicorn"
 
@@ -372,6 +372,38 @@ git push
 
 31. The build will happen in front of you, and once it has successfully built your app, you can click on "Open App" to take you to your live site.
 TheBunker live site, click here [The Bunker](https://the-bunker-tim.herokuapp.com/)
+
+### React
+
+1. Create a new empty repository on GitHub.
+
+2. Give the application a name e.g The Bunker (this must be written in lowercase letters).
+
+3. Click the GitPod button to create the empty workspace
+
+4. In the terminal window of the new workspace, enter the command "npx create-react-app . --use-npm". This will give an industry standard file structure.
+
+5. To check it's working, run the command "npm start" and open the broweser window/preview.
+
+6. It's a good idea to go into the App.js file and remove the header and replace it with an <h1> of your own to check that this is all functioning as expected.
+
+7. Once that shows in the browser window/preview, add, commit and push the changes. 
+
+8. Now head to Heroku and click the "new" button. Follow the steps to create you app, remembering to give it a unique name.
+
+9. Select the region nearest to you.
+
+10. Click create app.
+
+11. Now it's created, we need to connect it to the GitHub repository.
+
+12. In the "Deploy" tab on heroku, click the "Github" in the deplyment method.
+
+13. Enter the name of the Github repository we have just created and click "Connect".
+
+14. Once it's all connected, click "Deploy Branch" to trigger Heroku to build the application.
+
+15. Once you see the text "Build Succeeded", click the button that says "Open App" and you should see the same <h1> text you created in the App.js file.
 
 ## Credits
 
