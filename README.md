@@ -8,6 +8,22 @@ This is the main website for the golf photography website The Bunker. This websi
 
 ## User Experience
 
+### Wireframes
+
+![Signed Out](/readme_images/homesignedout.jpg "Signed Out Homepage")
+
+![Signed In](/readme_images/homesignedin.jpg "Signed In Homepage")
+
+![Sign In](/readme_images/signin.jpg "Sign In")
+
+![Sign Up](/readme_images/signup.jpg "Sign Up")
+
+![Bio](/readme_images/bio.jpg "Biography")
+
+![Edit Biography](/readme_images/editbio.jpg "Edit Biography")
+
+![Add Post](/readme_images/addpost.jpg "Add Post")
+
 ### Project Goals
 
 - Visual: For users to be able to share photos of their favourite golf holes.
@@ -19,6 +35,10 @@ This is the main website for the golf photography website The Bunker. This websi
 - Portable: For the site to be designed with a mobile-first mindset.
 
 - Intuitive: For the site to have a simple and repetetive design. 
+
+### Process Map
+
+![Schemata](/readme_images/schemata.png "Schemata")
 
 ### Site Aims
 
